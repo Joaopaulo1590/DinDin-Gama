@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+
+
+
+nav{
+    margin-top: 242px;
+    
+    
+}
+nav .apresentacao-container{
+    display: flex;
+    justify-content: space-around;
+
+
+   
+}
+
+
+nav section .text-btn{
+    display: flex;
+    flex-direction: column;
+     width: 488px;
+}
+
+nav section .text-btn h1{
+     font-size: 60px;
+     font-weight: bold;
+     color: #FF4081;
+}
+
+nav section .text-btn p{
+    font-size: 27px;
+    line-height: 31.02px;
+}
+
+
+nav section span a {
+    font-size: 27px;
+   
+    color: #FF4081; ;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    text-decoration: none;
+    padding: 10px 30px; 
+    
+    
+}
+
+nav section span a:hover{
+    background-color: #FF4081;
+    color: white;
+
+}
+span{
+    margin-top: 30px;
+}
+
+
+.itens-div{
+    padding: 2vh;
+}
+
+/* ffim da apresentação do site  */
+
+
+/* começo dos cards do meio do site  */
+
+.conteudosMid{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    margin-bottom: 230px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.card-title{
+    font-size: 25px;
+    color: #FF4081;
+}
+
+.card-p{
+    font-size: 17px;
+}
+
+.conteudosMid span a{
+   
+    background-color: #FF4081;
+    border-radius: 62px;
+    height: 51px;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    width: 233px;
+    text-decoration: none;
+
+
+}
+
+.conteudosMid span a:hover{
+    background-color: white;
+    color: #FF4081;
+    border: solid 1px #FF4081;
+}
+
+main .cards span a{
+    padding: 2vh;
+}
+
+.itens-card{
+    
+    padding: 2vh;
+    
+}
+
+
+@media screen and (max-width: 800px  )  {
+  
+  nav section .img-apresentacao{
+    display: none;
+  }
+  
+  .conteudosMid{
+    display: flex;
+    flex-direction: column;
+    align-items: c;
+  }
+  
+}
+
+/* fim cards  */
+
+
+/* o que falam de nos  */
+
+body article h2{
+  margin-bottom: 100px;
+  margin-left: 140px;
+  color: #009688;
+  ;
+}
+
+
+body .sobre{
+  grid-template-columns: repeat(auto-fit , minmax(500px , 1fr)) ;
+ padding: 10px;
+  justify-items: center;
+  justify-content: center;
+  display: grid;
+  grid-gap: 10px;
+  
+  
+}
+
+body .sobre  p{
+  width: 500px;
+
+}
+
+@media screen and (max-width: 600px  ) {
+  body .sobre p{
+    width: 350px;
+ 
+}
+}
+
+/* mais conteudo para voce  */
+
+.vazia{
+  text-align: center;
+  align-items: center;
+  
+  width: 320px;
+  height: 193px;
+background-color:   #C4C4C4;
+
+
+}
+
+.cards-l{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+
+  
+  
+}
+
+.c-card{
+  text-align: center;
+  align-items: center;
+}
+
+.cards-l h3{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: "Ubuntu", sans-serif;
+  color: #009688;
+}
+
+.cards-l p{
+  width: 320px;
+  text-align: center;
+}
+
+article .ti{
+  font-size: 564px;
+}
+
+
+@media screen and (max-width: 600px  ) {
+  .cards-l{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+  
+    
+    
+  }
+h2{
+    display: flex;
+    margin-top: 100px;
+   margin-right: 100px;
+  }
+
+  .cards-l h3{
+  display: flex;
+}
+
+
+}
+
